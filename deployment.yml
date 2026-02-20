@@ -1,7 +1,7 @@
 template-file-path: vpc.yml
 parameters: 
    CustomerName: nav
-   Environment: dev
+   EnvironmentName: dev
    ExportTag: test
    VpcCIDR: 10.192.0.0/16
    PublicSubnet1CIDR: 10.192.10.0/24
