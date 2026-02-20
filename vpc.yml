@@ -240,4 +240,4 @@ Outputs:
     Description: A reference to the private subnet in the 2nd Availability Zone
     Value: !Ref PrivateSubnet2   
     Export:
-      Name: !Sub "${CustomerName}-${ExportTag}-private-subnet-02  "
+      Name: !Sub "${CustomerName}-${ExportTag}-private-subnet-02"
